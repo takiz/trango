@@ -7,7 +7,7 @@ go get -u github.com/takiz/trango
 ![Screenshot](st1.png)
 ![Screenshot](st2.png)
 
-##Requirements
+## Requirements
 * [go](https://github.com/golang/go) v1.13 or later
 * GNU/Linux or FreeBSD
 * [transmission-daemon](https://github.com/transmission/transmission) v3.0 or later for categories support
