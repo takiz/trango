@@ -1,0 +1,922 @@
+{
+    "language": "en",
+    "messages": [
+        {
+            "id": "Set host",
+            "message": "Set host",
+            "translation": "Set host",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Set port",
+            "message": "Set port",
+            "translation": "Set port",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "\u003cpath\u003e  Set download dir when adding a new torrent",
+            "message": "\u003cpath\u003e  Set download dir when adding a new torrent",
+            "translation": "\u003cpath\u003e  Set download dir when adding a new torrent",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "\u003cname1,name2,...\u003e  Set categories when adding a new torrent",
+            "message": "\u003cname1,name2,...\u003e  Set categories when adding a new torrent",
+            "translation": "\u003cname1,name2,...\u003e  Set categories when adding a new torrent",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "\u003cfilename-or-URL\u003e  Add torrent",
+            "message": "\u003cfilename-or-URL\u003e  Add torrent",
+            "translation": "\u003cfilename-or-URL\u003e  Add torrent",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "\u003c0,1,2,3,...\u003e Mark files for download by index numbers",
+            "message": "\u003c0,1,2,3,...\u003e Mark files for download by index numbers",
+            "translation": "\u003c0,1,2,3,...\u003e Mark files for download by index numbers",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Set username",
+            "message": "Set username",
+            "translation": "Set username",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Set password",
+            "message": "Set password",
+            "translation": "Set password",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Show full status names",
+            "message": "Show full status names",
+            "translation": "Show full status names",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Start added torrent",
+            "message": "Start added torrent",
+            "translation": "Start added torrent",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Show dialog when adding a new torrent file (not url/magnet)",
+            "message": "Show dialog when adding a new torrent file (not url/magnet)",
+            "translation": "Show dialog when adding a new torrent file (not url/magnet)",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Print tracker URLs of a torrent file to standard output",
+            "message": "Print tracker URLs of a torrent file to standard output",
+            "translation": "Print tracker URLs of a torrent file to standard output",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Set the interval for updating torrents information in seconds",
+            "message": "Set the interval for updating torrents information in seconds",
+            "translation": "Set the interval for updating torrents information in seconds",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Print current version",
+            "message": "Print current version",
+            "translation": "Print current version",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "All",
+            "message": "All",
+            "translation": "All",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Default",
+            "message": "Default",
+            "translation": "Default",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Stopped",
+            "message": "Stopped",
+            "translation": "Stopped",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Check wait",
+            "message": "Check wait",
+            "translation": "Check wait",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Checking",
+            "message": "Checking",
+            "translation": "Checking",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Queued",
+            "message": "Queued",
+            "translation": "Queued",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Downloading",
+            "message": "Downloading",
+            "translation": "Downloading",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Seeding",
+            "message": "Seeding",
+            "translation": "Seeding",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Errored",
+            "message": "Errored",
+            "translation": "Errored",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Status",
+            "message": "Status",
+            "translation": "Status",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Done",
+            "message": "Done",
+            "translation": "Done",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "ETA",
+            "message": "ETA",
+            "translation": "ETA",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "|  Uploading  | Downloading | Peers |  Done  |   Size    |",
+            "message": "|  Uploading  | Downloading | Peers |  Done  |   Size    |",
+            "translation": "|  Uploading  | Downloading | Peers |  Done  |   Size    |",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Name",
+            "message": "Name",
+            "translation": "Name",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Quit",
+            "message": "Quit",
+            "translation": "Quit",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Category",
+            "message": "Category",
+            "translation": "Category",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "General",
+            "message": "General",
+            "translation": "General",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Trackers",
+            "message": "Trackers",
+            "translation": "Trackers",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Peers",
+            "message": "Peers",
+            "translation": "Peers",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Search",
+            "message": "Search",
+            "translation": "Search",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Content",
+            "message": "Content",
+            "translation": "Content",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Move",
+            "message": "Move",
+            "translation": "Move",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Help",
+            "message": "Help",
+            "translation": "Help",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "SortBy",
+            "message": "SortBy",
+            "translation": "SortBy",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "You need transmission-daemon version 3.00 or later for the categories support.",
+            "message": "You need transmission-daemon version 3.00 or later for the categories support.",
+            "translation": "You need transmission-daemon version 3.00 or later for the categories support.",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Close",
+            "message": "Close",
+            "translation": "Close",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Sort",
+            "message": "Sort",
+            "translation": "Sort",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Sort by",
+            "message": "Sort by",
+            "translation": "Sort by",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Added Date",
+            "message": "Added Date",
+            "translation": "Added Date",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Progress",
+            "message": "Progress",
+            "translation": "Progress",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Size",
+            "message": "Size",
+            "translation": "Size",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Free",
+            "message": "Free",
+            "translation": "Free",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Enter a new category name(s):",
+            "message": "Enter a new category name(s):",
+            "translation": "Enter a new category name(s):",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Enter a new path:",
+            "message": "Enter a new path:",
+            "translation": "Enter a new path:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Cancel",
+            "message": "Cancel",
+            "translation": "Cancel",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Path",
+            "message": "Path",
+            "translation": "Path",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Category:",
+            "message": "Category:",
+            "translation": "Category:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Add torrent",
+            "message": "Add torrent",
+            "translation": "Add torrent",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Start torrent:",
+            "message": "Start torrent:",
+            "translation": "Start torrent:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "no",
+            "message": "no",
+            "translation": "no",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "yes",
+            "message": "yes",
+            "translation": "yes",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Space",
+            "message": "Space",
+            "translation": "Space",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Get",
+            "message": "Get",
+            "translation": "Get",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "(Un)expand dir",
+            "message": "(Un)expand dir",
+            "translation": "(Un)expand dir",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Start yes/no",
+            "message": "Start yes/no",
+            "translation": "Start yes/no",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Torrent already added",
+            "message": "Torrent already added",
+            "translation": "Torrent already added",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Hotkeys",
+            "message": "Hotkeys",
+            "translation": "Hotkeys",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "start",
+            "message": "start",
+            "translation": "start",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "stop",
+            "message": "stop",
+            "translation": "stop",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "verify",
+            "message": "verify",
+            "translation": "verify",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "reannounce",
+            "message": "reannounce",
+            "translation": "reannounce",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "remove torrent(s)",
+            "message": "remove torrent(s)",
+            "translation": "remove torrent(s)",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "or",
+            "message": "or",
+            "translation": "or",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "remove torrent(s) with data",
+            "message": "remove torrent(s) with data",
+            "translation": "remove torrent(s) with data",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "preview/open file(s)",
+            "message": "preview/open file(s)",
+            "translation": "preview/open file(s)",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "select/unselect",
+            "message": "select/unselect",
+            "translation": "select/unselect",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "select all",
+            "message": "select all",
+            "translation": "select all",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "cancel selection",
+            "message": "cancel selection",
+            "translation": "cancel selection",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "create a new category for selected torrent(s)",
+            "message": "create a new category for selected torrent(s)",
+            "translation": "create a new category for selected torrent(s)",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "open comment url",
+            "message": "open comment url",
+            "translation": "open comment url",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "open download dir",
+            "message": "open download dir",
+            "translation": "open download dir",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "rename torrent",
+            "message": "rename torrent",
+            "translation": "rename torrent",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Done  |  Size   |  Name",
+            "message": "Done  |  Size   |  Name",
+            "translation": "Done  |  Size   |  Name",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Open",
+            "message": "Open",
+            "translation": "Open",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "No",
+            "message": "No",
+            "translation": "No",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Yes",
+            "message": "Yes",
+            "translation": "Yes",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Do you really want to delete",
+            "message": "Do you really want to delete",
+            "translation": "Do you really want to delete",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Move to:",
+            "message": "Move to:",
+            "translation": "Move to:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Rename to:",
+            "message": "Rename to:",
+            "translation": "Rename to:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Enter announce URL:",
+            "message": "Enter announce URL:",
+            "translation": "Enter announce URL:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Tracker URL:",
+            "message": "Tracker URL:",
+            "translation": "Tracker URL:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Set category for selected torrents",
+            "message": "Set category for selected torrents",
+            "translation": "Set category for selected torrents",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Filter by category",
+            "message": "Filter by category",
+            "translation": "Filter by category",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Categories",
+            "message": "Categories",
+            "translation": "Categories",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Active",
+            "message": "Active",
+            "translation": "Active",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "URL",
+            "message": "URL",
+            "translation": "URL",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "| Peers | Seeds | Status",
+            "message": "| Peers | Seeds | Status",
+            "translation": "| Peers | Seeds | Status",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Priority",
+            "message": "Priority",
+            "translation": "Priority",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Next dir",
+            "message": "Next dir",
+            "translation": "Next dir",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Next root dir",
+            "message": "Next root dir",
+            "translation": "Next root dir",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "|   Size    |  Priority  |  Name",
+            "message": "|   Size    |  Priority  |  Name",
+            "translation": "|   Size    |  Priority  |  Name",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Select dir",
+            "message": "Select dir",
+            "translation": "Select dir",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "New path",
+            "message": "New path",
+            "translation": "New path",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Directories",
+            "message": "Directories",
+            "translation": "Directories",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Select category",
+            "message": "Select category",
+            "translation": "Select category",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "New category",
+            "message": "New category",
+            "translation": "New category",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Edit URL",
+            "message": "Edit URL",
+            "translation": "Edit URL",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Add a new tracker",
+            "message": "Add a new tracker",
+            "translation": "Add a new tracker",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Remove tracker",
+            "message": "Remove tracker",
+            "translation": "Remove tracker",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "|  Done  | Downloading | Uploading |   Flags   | Client",
+            "message": "|  Done  | Downloading | Uploading |   Flags   | Client",
+            "translation": "|  Done  | Downloading | Uploading |   Flags   | Client",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "(Un)pause updates",
+            "message": "(Un)pause updates",
+            "translation": "(Un)pause updates",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Next",
+            "message": "Next",
+            "translation": "Next",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Search:",
+            "message": "Search:",
+            "translation": "Search:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "General Info",
+            "message": "General Info",
+            "translation": "General Info",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Hash",
+            "message": "Hash",
+            "translation": "Hash",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Location",
+            "message": "Location",
+            "translation": "Location",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Comment",
+            "message": "Comment",
+            "translation": "Comment",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Uploaded",
+            "message": "Uploaded",
+            "translation": "Uploaded",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Ratio",
+            "message": "Ratio",
+            "translation": "Ratio",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Created",
+            "message": "Created",
+            "translation": "Created",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Creator",
+            "message": "Creator",
+            "translation": "Creator",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Added",
+            "message": "Added",
+            "translation": "Added",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Total Size",
+            "message": "Total Size",
+            "translation": "Total Size",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Errors",
+            "message": "Errors",
+            "translation": "Errors",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Resumed",
+            "message": "Resumed",
+            "translation": "Resumed",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Paused",
+            "message": "Paused",
+            "translation": "Paused",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Uploading",
+            "message": "Uploading",
+            "translation": "Uploading",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "GiB",
+            "message": "GiB",
+            "translation": "GiB",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "MiB",
+            "message": "MiB",
+            "translation": "MiB",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "KiB",
+            "message": "KiB",
+            "translation": "KiB",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "B",
+            "message": "B",
+            "translation": "B",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "MB/s",
+            "message": "MB/s",
+            "translation": "MB/s",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "kB/s",
+            "message": "kB/s",
+            "translation": "kB/s",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "d",
+            "message": "d",
+            "translation": "d",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "h",
+            "message": "h",
+            "translation": "h",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "m",
+            "message": "m",
+            "translation": "m",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "s",
+            "message": "s",
+            "translation": "s",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        }
+    ]
+}

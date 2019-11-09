@@ -1,0 +1,660 @@
+{
+    "language": "ru",
+    "messages": [
+        {
+            "id": "Set host",
+            "message": "Set host",
+            "translation": "Установить хост"
+        },
+        {
+            "id": "Set port",
+            "message": "Set port",
+            "translation": "Установить порт"
+        },
+        {
+            "id": "\u003cpath\u003e  Set download dir when adding a new torrent",
+            "message": "\u003cpath\u003e  Set download dir when adding a new torrent",
+            "translation": "\u003cпуть\u003e  Установить каталог загрузки при добавлении торрента"
+        },
+        {
+            "id": "\u003cname1,name2,...\u003e  Set categories when adding a new torrent",
+            "message": "\u003cname1,name2,...\u003e  Set categories when adding a new torrent",
+            "translation": "\u003cимя1,имя2,...\u003e  Установить категории при добавлении торрента"
+        },
+        {
+            "id": "\u003cfilename-or-URL\u003e  Add torrent",
+            "message": "\u003cfilename-or-URL\u003e  Add torrent",
+            "translation": "\u003cимя_файла или URL\u003e  Добавить торрент"
+        },
+        {
+            "id": "\u003c0,1,2,3,...\u003e Mark files for download by index numbers",
+            "message": "\u003c0,1,2,3,...\u003e Mark files for download by index numbers",
+            "translation": "\u003c0,1,2,3,...\u003e Отметить файлы для загрузки по номерам индексов"
+        },
+        {
+            "id": "Set username",
+            "message": "Set username",
+            "translation": "Установить имя пользователя"
+        },
+        {
+            "id": "Set password",
+            "message": "Set password",
+            "translation": "Установить пароль"
+        },
+        {
+            "id": "Show full status names",
+            "message": "Show full status names",
+            "translation": "Показывать полные имена статусов"
+        },
+        {
+            "id": "Start added torrent",
+            "message": "Start added torrent",
+            "translation": "Стартовать добавленный торрент"
+        },
+        {
+            "id": "Show dialog when adding a new torrent file (not url/magnet)",
+            "message": "Show dialog when adding a new torrent file (not url/magnet)",
+            "translation": "Показывать диалог при добавлении нового торрент-файла (не url/magnet)"
+        },
+        {
+            "id": "Print tracker URLs of a torrent file to standard output",
+            "message": "Print tracker URLs of a torrent file to standard output",
+            "translation": "Вывести адреса трекеров торрент-файла в стандартный вывод"
+        },
+        {
+            "id": "Set the interval for updating torrents information in seconds",
+            "message": "Set the interval for updating torrents information in seconds",
+            "translation": "Установить интервал обновления информации о торрентах в секундах"
+        },
+        {
+            "id": "Print current version",
+            "message": "Print current version",
+            "translation": "Показать версию"
+        },
+        {
+            "id": "All",
+            "message": "All",
+            "translation": "Все"
+        },
+        {
+            "id": "Default",
+            "message": "Default",
+            "translation": "По умолчанию"
+        },
+        {
+            "id": "Stopped",
+            "message": "Stopped",
+            "translation": "Остановлен"
+        },
+        {
+            "id": "Check wait",
+            "message": "Check wait",
+            "translation": "Ждёт проверки"
+        },
+        {
+            "id": "Checking",
+            "message": "Checking",
+            "translation": "Проверяется"
+        },
+        {
+            "id": "Queued",
+            "message": "Queued",
+            "translation": "В очереди"
+        },
+        {
+            "id": "Downloading",
+            "message": "Downloading",
+            "translation": "Загрузка"
+        },
+        {
+            "id": "Seeding",
+            "message": "Seeding",
+            "translation": "Раздаётся"
+        },
+        {
+            "id": "Errored",
+            "message": "Errored",
+            "translation": "С ошибкой"
+        },
+        {
+            "id": "Status",
+            "message": "Status",
+            "translation": "Статус"
+        },
+        {
+            "id": "Done",
+            "message": "Done",
+            "translation": "Готово"
+        },
+        {
+            "id": "ETA",
+            "message": "ETA",
+            "translation": "Время"
+        },
+        {
+            "id": "|  Uploading  | Downloading | Peers |  Done  |   Size    |",
+            "message": "|  Uploading  | Downloading | Peers |  Done  |   Size    |",
+            "translation": "|   Отдача    |   Загрузка  | Пиры  | Готово |  Размер   |"
+        },
+        {
+            "id": "Name",
+            "message": "Name",
+            "translation": "Имя"
+        },
+        {
+            "id": "Quit",
+            "message": "Quit",
+            "translation": "Выход"
+        },
+        {
+            "id": "Category",
+            "message": "Category",
+            "translation": "Категория"
+        },
+        {
+            "id": "General",
+            "message": "General",
+            "translation": "Общие"
+        },
+        {
+            "id": "Trackers",
+            "message": "Trackers",
+            "translation": "Трекеры"
+        },
+        {
+            "id": "Peers",
+            "message": "Peers",
+            "translation": "Пиры"
+        },
+        {
+            "id": "Search",
+            "message": "Search",
+            "translation": "Поиск"
+        },
+        {
+            "id": "Content",
+            "message": "Content",
+            "translation": "Файлы"
+        },
+        {
+            "id": "Move",
+            "message": "Move",
+            "translation": "Переместить"
+        },
+        {
+            "id": "Help",
+            "message": "Help",
+            "translation": "Помощь"
+        },
+        {
+            "id": "SortBy",
+            "message": "SortBy",
+            "translation": "Сортировка"
+        },
+        {
+            "id": "You need transmission-daemon version 3.00 or later for the categories support.",
+            "message": "You need transmission-daemon version 3.00 or later for the categories support.",
+            "translation": "Для поддержки категорий требуется transmission-daemon версии 3.00 или больше."
+        },
+        {
+            "id": "Close",
+            "message": "Close",
+            "translation": "Закрыть"
+        },
+        {
+            "id": "Sort",
+            "message": "Sort",
+            "translation": "Сортировка"
+        },
+        {
+            "id": "Sort by",
+            "message": "Sort by",
+            "translation": "Сортировать по"
+        },
+        {
+            "id": "Added Date",
+            "message": "Added Date",
+            "translation": "Дата добавления"
+        },
+        {
+            "id": "Progress",
+            "message": "Progress",
+            "translation": "Прогресс"
+        },
+        {
+            "id": "Size",
+            "message": "Size",
+            "translation": "Размер"
+        },
+        {
+            "id": "Free",
+            "message": "Free",
+            "translation": "Свободно"
+        },
+        {
+            "id": "Enter a new category name(s):",
+            "message": "Enter a new category name(s):",
+            "translation": "Введите имя новой категории(й)"
+        },
+        {
+            "id": "Enter a new path:",
+            "message": "Enter a new path:",
+            "translation": "Введите новый путь"
+        },
+        {
+            "id": "Cancel",
+            "message": "Cancel",
+            "translation": "Отмена"
+        },
+        {
+            "id": "Path",
+            "message": "Path",
+            "translation": "Путь"
+        },
+        {
+            "id": "Category:",
+            "message": "Category:",
+            "translation": "Категория:"
+        },
+        {
+            "id": "Add torrent",
+            "message": "Add torrent",
+            "translation": "Добавить торрент"
+        },
+        {
+            "id": "Start torrent:",
+            "message": "Start torrent:",
+            "translation": "Стартовать торрент:"
+        },
+        {
+            "id": "no",
+            "message": "no",
+            "translation": "нет"
+        },
+        {
+            "id": "yes",
+            "message": "yes",
+            "translation": "да"
+        },
+        {
+            "id": "Space",
+            "message": "Space",
+            "translation": "Пробел"
+        },
+        {
+            "id": "Get",
+            "message": "Get",
+            "translation": "Получить"
+        },
+        {
+            "id": "(Un)expand dir",
+            "message": "(Un)expand dir",
+            "translation": "Свернуть каталог"
+        },
+        {
+            "id": "Start yes/no",
+            "message": "Start yes/no",
+            "translation": "Стартовать да/нет"
+        },
+        {
+            "id": "Torrent already added",
+            "message": "Torrent already added",
+            "translation": "Торрент уже добавлен"
+        },
+        {
+            "id": "Hotkeys",
+            "message": "Hotkeys",
+            "translation": "Горячие клавиши"
+        },
+        {
+            "id": "start",
+            "message": "start",
+            "translation": "стартовать"
+        },
+        {
+            "id": "stop",
+            "message": "stop",
+            "translation": "остановить"
+        },
+        {
+            "id": "verify",
+            "message": "verify",
+            "translation": "проверить"
+        },
+        {
+            "id": "reannounce",
+            "message": "reannounce",
+            "translation": "реаннонсировать"
+        },
+        {
+            "id": "remove torrent(s)",
+            "message": "remove torrent(s)",
+            "translation": "удалить торрент(ы)"
+        },
+        {
+            "id": "or",
+            "message": "or",
+            "translation": "или"
+        },
+        {
+            "id": "remove torrent(s) with data",
+            "message": "remove torrent(s) with data",
+            "translation": "удалить торрент(ы) с содержимым"
+        },
+        {
+            "id": "preview/open file(s)",
+            "message": "preview/open file(s)",
+            "translation": "предпросмотр/открыть файл(ы)"
+        },
+        {
+            "id": "select/unselect",
+            "message": "select/unselect",
+            "translation": "выделить/снять выделение"
+        },
+        {
+            "id": "select all",
+            "message": "select all",
+            "translation": "выделить все"
+        },
+        {
+            "id": "cancel selection",
+            "message": "cancel selection",
+            "translation": "отменить выделение"
+        },
+        {
+            "id": "create a new category for selected torrent(s)",
+            "message": "create a new category for selected torrent(s)",
+            "translation": "создать новую категорию для выбранных торрентов"
+        },
+        {
+            "id": "open comment url",
+            "message": "open comment url",
+            "translation": "открыть url из комментария к торренту"
+        },
+        {
+            "id": "open download dir",
+            "message": "open download dir",
+            "translation": "открыть каталог загрузки"
+        },
+        {
+            "id": "rename torrent",
+            "message": "rename torrent",
+            "translation": "переименовать торрент"
+        },
+        {
+            "id": "Done  |  Size   |  Name",
+            "message": "Done  |  Size   |  Name",
+            "translation": "Готово|  Размер |  Имя"
+        },
+        {
+            "id": "Open",
+            "message": "Open",
+            "translation": "Открыть"
+        },
+        {
+            "id": "No",
+            "message": "No",
+            "translation": "Нет"
+        },
+        {
+            "id": "Yes",
+            "message": "Yes",
+            "translation": "Да"
+        },
+        {
+            "id": "Do you really want to delete",
+            "message": "Do you really want to delete",
+            "translation": "Вы действительно хотите удалить"
+        },
+        {
+            "id": "Move to:",
+            "message": "Move to:",
+            "translation": "Переместить в:"
+        },
+        {
+            "id": "Rename to:",
+            "message": "Rename to:",
+            "translation": "Переименовать в:"
+        },
+        {
+            "id": "Enter announce URL:",
+            "message": "Enter announce URL:",
+            "translation": "Введите URL трекера:"
+        },
+        {
+            "id": "Tracker URL:",
+            "message": "Tracker URL:",
+            "translation": "URL трекера:"
+        },
+        {
+            "id": "Set category for selected torrents",
+            "message": "Set category for selected torrents",
+            "translation": "Установить категорию для выделенных торрентов"
+        },
+        {
+            "id": "Filter by category",
+            "message": "Filter by category",
+            "translation": "Фильтровать по категории"
+        },
+        {
+            "id": "Categories",
+            "message": "Categories",
+            "translation": "Категории"
+        },
+        {
+            "id": "Active",
+            "message": "Active",
+            "translation": "Активны"
+        },
+        {
+            "id": "URL",
+            "message": "URL",
+            "translation": "Адрес"
+        },
+        {
+            "id": "| Peers | Seeds | Status",
+            "message": "| Peers | Seeds | Status",
+            "translation": "| Пиры  | Сиды  | Статус"
+        },
+        {
+            "id": "Priority",
+            "message": "Priority",
+            "translation": "Приоритет"
+        },
+        {
+            "id": "Next dir",
+            "message": "Next dir",
+            "translation": "Следующий каталог"
+        },
+        {
+            "id": "Next root dir",
+            "message": "Next root dir",
+            "translation": "Следующий корневой каталог"
+        },
+        {
+            "id": "|   Size    |  Priority  |  Name",
+            "message": "|   Size    |  Priority  |  Name",
+            "translation": "|   Размер  |  Приоритет |  Имя"
+        },
+        {
+            "id": "Select dir",
+            "message": "Select dir",
+            "translation": "Выбрать каталог"
+        },
+        {
+            "id": "New path",
+            "message": "New path",
+            "translation": "Новый путь"
+        },
+        {
+            "id": "Directories",
+            "message": "Directories",
+            "translation": "Директории"
+        },
+        {
+            "id": "Select category",
+            "message": "Select category",
+            "translation": "Выбрать категорию"
+        },
+        {
+            "id": "New category",
+            "message": "New category",
+            "translation": "Новая категория"
+        },
+        {
+            "id": "Edit URL",
+            "message": "Edit URL",
+            "translation": "Редактировать URL"
+        },
+        {
+            "id": "Add a new tracker",
+            "message": "Add a new tracker",
+            "translation": "Добавить новый трекер"
+        },
+        {
+            "id": "Remove tracker",
+            "message": "Remove tracker",
+            "translation": "Удалить трекер"
+        },
+        {
+            "id": "|  Done  | Downloading | Uploading |   Flags   | Client",
+            "message": "|  Done  | Downloading | Uploading |   Flags   | Client",
+            "translation": "| Готово |  Загрузка   |  Отдача   |   Флаги   | Клиент"
+        },
+        {
+            "id": "(Un)pause updates",
+            "message": "(Un)pause updates",
+            "translation": "Приостановить/возобновить обновления списка"
+        },
+        {
+            "id": "Next",
+            "message": "Next",
+            "translation": "Следующий"
+        },
+        {
+            "id": "Search:",
+            "message": "Search:",
+            "translation": "Поиск:"
+        },
+        {
+            "id": "General Info",
+            "message": "General Info",
+            "translation": "Общая информация"
+        },
+        {
+            "id": "Hash",
+            "message": "Hash",
+            "translation": "Хэш"
+        },
+        {
+            "id": "Location",
+            "message": "Location",
+            "translation": "Расположение"
+        },
+        {
+            "id": "Comment",
+            "message": "Comment",
+            "translation": "Комментарий"
+        },
+        {
+            "id": "Uploaded",
+            "message": "Uploaded",
+            "translation": "Отдано"
+        },
+        {
+            "id": "Ratio",
+            "message": "Ratio",
+            "translation": "Рейтинг"
+        },
+        {
+            "id": "Created",
+            "message": "Created",
+            "translation": "Дата создания"
+        },
+        {
+            "id": "Creator",
+            "message": "Creator",
+            "translation": "Создан в"
+        },
+        {
+            "id": "Added",
+            "message": "Added",
+            "translation": "Дата добавления"
+        },
+        {
+            "id": "Total Size",
+            "message": "Total Size",
+            "translation": "Общий размер"
+        },
+        {
+            "id": "Errors",
+            "message": "Errors",
+            "translation": "Ошибки"
+        },
+        {
+            "id": "Resumed",
+            "message": "Resumed",
+            "translation": "Возобновлены"
+        },
+        {
+            "id": "Paused",
+            "message": "Paused",
+            "translation": "Остановлены"
+        },
+        {
+            "id": "Uploading",
+            "message": "Uploading",
+            "translation": "Отдача"
+        },
+        {
+            "id": "GiB",
+            "message": "GiB",
+            "translation": "ГиБ"
+        },
+        {
+            "id": "MiB",
+            "message": "MiB",
+            "translation": "МиБ"
+        },
+        {
+            "id": "KiB",
+            "message": "KiB",
+            "translation": "КиБ"
+        },
+        {
+            "id": "B",
+            "message": "B",
+            "translation": "Б"
+        },
+        {
+            "id": "MB/s",
+            "message": "MB/s",
+            "translation": "МБ/с"
+        },
+        {
+            "id": "kB/s",
+            "message": "kB/s",
+            "translation": "кБ/с"
+        },
+        {
+            "id": "d",
+            "message": "d",
+            "translation": "д"
+        },
+        {
+            "id": "h",
+            "message": "h",
+            "translation": "ч"
+        },
+        {
+            "id": "m",
+            "message": "m",
+            "translation": "м"
+        },
+        {
+            "id": "s",
+            "message": "s",
+            "translation": "с"
+        }
+    ]
+}
