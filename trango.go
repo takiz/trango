@@ -1416,6 +1416,7 @@ func ShowConfirmation(s, method string, flag bool) {
 			case tcell.KeyEnter:
 				MainMutex.Lock()
 				TorAction(MainList.GetCurrentItem(), method, flag)
+				SelectedIds = make(map[int]int)
 				MainMutex.Unlock()
 				SwitchToMain(Hotkeys, KEYS)
 			}
