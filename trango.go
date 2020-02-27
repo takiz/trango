@@ -1923,6 +1923,9 @@ func SelectItem(list *tview.List) {
 func TrackersAdd(id int) *tview.List {
 	ti := GetTrackersInfo(id)
 	n := len(ti)
+	if n == 0 {
+		return nil
+	}
 	max := len(ti[0].Announce)
 	for j := 1; j < n; j++ {
 		l := len(ti[j].Announce)
@@ -1957,8 +1960,12 @@ func TrackersAdd(id int) *tview.List {
 func ShowTrackersInfo(list *tview.List, curItem int) {
 	item := MainList.GetCurrentItem()
 	id := GetId(item, MainList)
-	MainGrid.RemoveItem(list)
 	trackersInfo := TrackersAdd(id)
+	if trackersInfo == nil {
+		MainMutex.Unlock()
+		return
+	}
+	MainGrid.RemoveItem(list)
 	MainGrid.AddItem(trackersInfo, 2, 0, 1, 3, 0, 0, true)
 	trackersInfo.SetCurrentItem(curItem)
 	App.SetFocus(trackersInfo).
