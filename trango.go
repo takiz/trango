@@ -576,8 +576,8 @@ func NewInputFieldPrim(label string) *tview.InputField {
 	inp := tview.NewInputField().
 		SetLabel(label).
 		SetFieldWidth(50).SetFieldTextColor(tcell.Color221).
-		SetFieldBackgroundColor(tcell.Color25)
-	// SetLabelColor(tcell.Color221)
+		SetFieldBackgroundColor(tcell.Color25).
+		SetLabelColor(tcell.ColorDefault)
 	inp.SetBackgroundColor(tcell.ColorDefault)
 	return inp
 }
