@@ -1903,7 +1903,6 @@ func SelectAll(list *tview.List, sel bool) {
 }
 
 func SelectItem(list *tview.List) {
-	MainMutex.Lock()
 	index := list.GetCurrentItem()
 	m, s := list.GetItemText(index)
 	id, err := strconv.Atoi(s)
@@ -1917,7 +1916,6 @@ func SelectItem(list *tview.List) {
 		SelectedIds[id] = index
 		list.SetItemText(index, fmt.Sprintf("[black:yellow]%s", m), s)
 	}
-	MainMutex.Unlock()
 }
 
 func TrackersAdd(id int) *tview.List {
