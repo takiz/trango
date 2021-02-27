@@ -24,7 +24,7 @@ import (
 	"unsafe"
 
 	"github.com/famz/SetLocale"
-	"github.com/gdamore/tcell"
+	"github.com/gdamore/tcell/v2"
 	"github.com/marksamman/bencode"
 	"github.com/rivo/tview"
 	"golang.org/x/sys/unix"
