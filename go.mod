@@ -1,4 +1,4 @@
-module trango
+module github.com/takiz/trango
 
 go 1.13
 
