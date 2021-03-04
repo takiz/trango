@@ -520,8 +520,11 @@ func SetMainInput() {
 			case tcell.KeyCtrlF:
 				TorAction(MainList.GetCurrentItem(), "torrent-reannounce", true)
 			case tcell.KeyDelete:
-				ShowConfirmation("torrent(s)",
-					"torrent-remove", false)
+				if event.Modifiers()&tcell.ModShift != 0 {
+					ShowConfirmation("torrent(s)", "torrent-remove", true)
+				} else {
+					ShowConfirmation("torrent(s)", "torrent-remove", false)
+				}
 			case tcell.KeyCtrlA:
 				SelectAll(MainList, true)
 			case tcell.KeyEsc:
@@ -544,8 +547,7 @@ func SetMainInput() {
 				case ' ': // space
 					SelectItem(MainList)
 				case '~': // ~ or shift+delete
-					ShowConfirmation("torrent(s)",
-						"torrent-remove", true)
+					ShowConfirmation("torrent(s)", "torrent-remove", true)
 				}
 			}
 			return event
